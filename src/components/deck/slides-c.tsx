@@ -235,7 +235,7 @@ export function Slide16({ active }: { active: boolean }) {
         <span>Cobertura do plano: <strong className="text-foreground">30 dias</strong></span>
         <span>Forma de pagamento: <strong className="text-foreground">Pix ou cartão</strong></span>
       </div>
-      <div className="stagger-item mt-3 flex justify-center" style={{ animationDelay: "650ms" }}>
+      <div className="stagger-item mb-10 mt-2 flex justify-center" style={{ animationDelay: "650ms" }}>
         <button className="cta-pulse rounded-full bg-lime px-10 py-3 font-[Oswald] text-lg font-bold uppercase tracking-wider text-lime-foreground transition-transform hover:scale-105">
           Quero vender mais
         </button>
