@@ -120,7 +120,7 @@ export function FocoDiagram({
               fontSize={13}
               fontWeight={700}
               fontFamily="Oswald, sans-serif"
-              transform={`rotate(${i * 90} ${x} ${y})`}
+              transform={`rotate(${i === 2 ? 0 : i * 90} ${x} ${y})`}
               style={{ textTransform: "uppercase", letterSpacing: 1 }}
             >
               {label}

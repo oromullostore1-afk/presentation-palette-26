@@ -94,7 +94,7 @@ export function Slide7({ active }: { active: boolean }) {
           ))}
         </ol>
       </div>
-      <p className="stagger-item pb-6 text-center text-sm italic text-muted-foreground" style={{ animationDelay: "1200ms" }}>
+      <p className="stagger-item pb-16 text-center text-sm italic text-muted-foreground" style={{ animationDelay: "1200ms" }}>
         Personalizado de acordo com seu funil de vendas
       </p>
     </div>
